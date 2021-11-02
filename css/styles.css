@@ -1,0 +1,36 @@
+body {
+    background-color: #CEE5D0;
+}
+hr{
+    border-style: dotted none none;
+    width: 5%;
+    border-color: grey;
+    border-width: 7px;
+    margin: 20px auto;
+}
+
+h1, h2, h3 {
+    color: #66BFBF;
+}
+
+button{
+    background-color: #9D84B7;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+button:hover{
+    background-color: #FF7878;
+}
+
+img{
+    float: left;
+    padding-right: 10px;
+    margin-bottom: 40px;
+}
+
+.intro{
+    margin-bottom: 100px;
+}
