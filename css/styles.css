@@ -13,6 +13,10 @@ h1, h2, h3 {
     color: #66BFBF;
 }
 
+h3 {
+text-align: center;
+}
+
 button{
     background-color: #9D84B7;
     padding: 5px 10px;
@@ -32,8 +36,7 @@ img{
 }
 
 table{
-margin-left:auto;
-margin-right:auto;
+margin: 0 auto;
 }
 
 .intro{
