@@ -1,12 +1,13 @@
 body {
     background-color: #CEE5D0;
+    max-width: 90%;
 }
 hr{
     border-style: dotted none none;
     width: 5%;
     border-color: grey;
     border-width: 7px;
-    margin: 20px auto;
+    margin: 50px auto 30px;
 }
 
 h1, h2, h3 {
@@ -14,15 +15,26 @@ h1, h2, h3 {
 }
 
 h3 {
-text-align: center;
+    text-align: center;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul, ol {
+display: inline-block;
+text-align: left;
 }
 
 button{
+    display: block;
     background-color: #9D84B7;
-    padding: 5px 10px;
+    padding: 10px 25px;
     border-radius: 10px;
     cursor: pointer;
     color: #FFFFFF;
+    margin: 20px auto;
 }
 
 button:hover{
@@ -30,15 +42,17 @@ button:hover{
 }
 
 img{
+    display: block;
     float: left;
-    padding-right: 10px;
+    padding: 0 20px;
     margin-bottom: 40px;
 }
 
-table{
-margin: 0 auto;
+.intro{
+    margin: 50px auto 100px;
+
 }
 
-.intro{
-    margin-bottom: 100px;
+.education, .hobbies {
+    text-align: center;
 }
